@@ -2,33 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9be09a5c-0aff-4da1-812f-7d087ad23cca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/clients/customer/lib/enums/basic_dialog_status.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clients/customer/lib/enums/dialog_type.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clients/customer/lib/ui/shared/dialogs/basic_dialog.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clients/customer/lib/ui/shared/setup_dialog_ui.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/backend/.firebaserc" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/.firebaserc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/backend/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/firebase.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/functions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/functions/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/backend/functions/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/functions/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/backend/functions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/functions/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/functions/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/functions/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/functions/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backend/functions/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/functions/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/box_ui/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/clients/box_ui/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/box_ui/lib/src/shared/app_colors.dart" beforeDir="false" afterPath="$PROJECT_DIR$/src/clients/box_ui/lib/src/shared/app_colors.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/customer/lib/app/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/src/clients/customer/lib/app/app.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/customer/lib/constants/app_strings.dart" beforeDir="false" afterPath="$PROJECT_DIR$/src/clients/customer/lib/constants/app_strings.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/customer/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/src/clients/customer/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/customer/lib/ui/address_selection/address_selection_viewmodel.dart" beforeDir="false" afterPath="$PROJECT_DIR$/src/clients/customer/lib/ui/address_selection/address_selection_viewmodel.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/customer/lib/ui/base/authentication_viewmodel.dart" beforeDir="false" afterPath="$PROJECT_DIR$/src/clients/customer/lib/ui/base/authentication_viewmodel.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/customer/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/clients/customer/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/customer/test/viewmodel_tests/startup_viewmodel_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/src/clients/customer/test/viewmodel_tests/startup_viewmodel_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_XL_API_30]" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -50,10 +35,10 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/clients/customer/android/app" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -114,6 +99,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="60" y="92" width="1160" height="538" key="AVDManager/0.0.1366.738/1366.0.1360.738@0.0.1366.738" timestamp="1634291473418" />
+    <state x="1826" y="124" key="FileChooserDialogImpl" timestamp="1634292712592">
+      <screen x="1366" y="0" width="1360" height="738" />
+    </state>
+    <state x="1826" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1360.738@1366.0.1360.738" timestamp="1634292712592" />
     <state width="1300" height="272" key="GridCell.Tab.0.bottom" timestamp="1634227921889">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -134,15 +123,15 @@
     </state>
     <state width="1300" height="272" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1360.738@0.0.1366.738" timestamp="1634227921889" />
     <state width="1300" height="176" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1360.738@1366.0.1360.738" timestamp="1633968992437" />
-    <state x="182" y="0" key="SettingsEditor" timestamp="1634137664176">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="1547" y="0" key="SettingsEditor" timestamp="1634292741348">
+      <screen x="1366" y="0" width="1360" height="738" />
     </state>
     <state x="182" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1360.738@0.0.1366.738" timestamp="1634137664176" />
-    <state x="1547" y="14" key="SettingsEditor/0.0.1366.738/1366.0.1360.738@1366.0.1360.738" timestamp="1633699860648" />
-    <state x="389" y="102" width="697" height="534" key="find.popup" timestamp="1634224908799">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="1547" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1360.738@1366.0.1360.738" timestamp="1634292741348" />
+    <state x="1753" y="102" width="585" height="534" key="find.popup" timestamp="1634292696129">
+      <screen x="1366" y="0" width="1360" height="738" />
     </state>
     <state x="389" y="102" width="697" height="534" key="find.popup/0.0.1366.738/1366.0.1360.738@0.0.1366.738" timestamp="1634224908799" />
-    <state x="1753" y="102" width="585" height="534" key="find.popup/0.0.1366.738/1366.0.1360.738@1366.0.1360.738" timestamp="1633967281258" />
+    <state x="1753" y="102" width="585" height="534" key="find.popup/0.0.1366.738/1366.0.1360.738@1366.0.1360.738" timestamp="1634292696129" />
   </component>
 </project>
