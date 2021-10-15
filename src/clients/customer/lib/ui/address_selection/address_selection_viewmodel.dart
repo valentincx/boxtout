@@ -3,6 +3,8 @@ import 'package:customer/app/app.locator.dart';
 import 'package:customer/app/app.logger.dart';
 import 'package:customer/app/app.router.dart';
 import 'package:customer/constants/app_strings.dart';
+import 'package:customer/enums/basic_dialog_status.dart';
+import 'package:customer/enums/dialog_type.dart';
 import 'package:customer/models/application_models.dart';
 import 'package:customer/services/user_service.dart';
 import 'package:stacked/stacked.dart';
@@ -78,10 +80,18 @@ class AddressSelectionViewModel extends FormViewModel {
           await _firestoreApi.isCityServiced(city: city.toCityDocument);
 
       if (!cityServiced) {
-        await _dialogService.showDialog(
+        final dialogResult = await _dialogService.showCustomDialog(
+          variant: DialogType.basic,
+          customData: BasicDialogStatus.error,
           title: CityNotServicedDialogTitle,
           description: CityNotServicedDialogDescripton,
+          secondaryButtonTitle: CityNotServicedDialogSecondaryButton,
+          mainButtonTitle: CityNotServicedDialogMainButton,
         );
+
+        if (!dialogResult!.confirmed) {
+          // take me to a screen that has a list of all the region documents available
+        }
       } else {
         final address = Address(
           placeId: placeDetails.placeId!,

@@ -47,7 +47,7 @@ abstract class AuthenticationViewModel extends FormViewModel {
     final result = await firebaseAuthenticationService.signInWithApple(
       appleClientId: '',
       appleRedirectUri:
-          'https://boxtout-production.firebaseapp.com/__/auth/handler',
+          'https://boxtout-production-67483.firebaseapp.com/__/auth/handler',
     );
     await _handleAuthenticationResponse(result);
   }

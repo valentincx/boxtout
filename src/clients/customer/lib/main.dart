@@ -8,6 +8,7 @@ import 'package:stacked_services/stacked_services.dart';
 
 import 'app/app.locator.dart';
 import 'app/app.router.dart';
+import 'ui/shared/setup_dialog_ui.dart';
 
 const bool USE_EMULATOR = true;
 
@@ -17,16 +18,17 @@ Future main() async {
 
   if (USE_EMULATOR) {
     await _connectToFirebaseEmulator();
+    print('this is emulator');
   }
 
   setupLocator();
+  setupDialogUi();
   runApp(MyApp());
 }
 
 /// Connnect to the firebase emulator for Firestore and Authentication
 Future _connectToFirebaseEmulator() async {
   final localHostString = Platform.isAndroid ? '10.0.2.2' : 'localhost';
-
   FirebaseFirestore.instance.settings = Settings(
     host: '$localHostString:8080',
     sslEnabled: false,

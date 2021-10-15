@@ -1,6 +1,7 @@
 import 'package:customer/app/app.router.dart';
 import 'package:customer/models/application_models.dart';
 import 'package:customer/ui/startup/startup_viewmodel.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 
@@ -28,7 +29,7 @@ void main() {
         final placesService = getAndRegisterPlacesService();
         var model = _getModel();
         await model.runStartupLogic();
-        verify(placesService.initialize(apiKey: 'its-me'));
+        verify(placesService.initialize(apiKey: env['GOOGLE_MAPS_API_KEY']!));
       });
 
       test(
